@@ -1,246 +1,298 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Produkty</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" id="main-link">Główna</a></li>
-        <li><a href="produkty.html" id="products-link">Produkty</a></li>
-        <li><a href="info.html" id="info-link">Informacje</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produkty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="main-link">Główna</a></li>
+          <li><a href="produkty.html" id="products-link">Produkty</a></li>
+          <li><a href="info.html" id="info-link">Informacje</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <h1>Produkty</h1>
-    <!-- Pasek filtrów -->
-    <section id="filters">
-      <div class="filter-container">
-        <button class="filter-btn active" data-filter="all">Wszystko</button>
-        <button class="filter-btn" data-filter="wielkanoc">Wielkanoc</button>
-        <button class="filter-btn" data-filter="ozdoby">Ozdoby</button>
-        <button class="filter-btn" data-filter="wazony">Wazony</button>
-        <button class="filter-btn" data-filter="breloki">Breloki</button>
-        <button class="filter-btn" data-filter="inne">Inne</button>
-      </div>
-    </section>
+    <main>
+      <h1>Produkty</h1>
+      <!-- Pasek filtrów -->
+      <section id="filters">
+        <div class="filter-container">
+          <button class="filter-btn active" data-filter="all">Wszystko</button>
+          <button class="filter-btn" data-filter="wielkanoc">Wielkanoc</button>
+          <button class="filter-btn" data-filter="ozdoby">Ozdoby</button>
+          <button class="filter-btn" data-filter="wazony">Wazony</button>
+          <button class="filter-btn" data-filter="breloki">Breloki</button>
+          <button class="filter-btn" data-filter="inne">Inne</button>
+        </div>
+      </section>
 
-    <section id="products">
-      <div class="products">
-        <article class="product" data-category="wielkanoc">
-          <a href="jajko z nogami.html">
-            <img src="zdjęcia/Jajka z nogami.png" alt="Królik z nogami" loading="lazy">
-            <div class="info">
-              <p>Świecący jajko z uszami</p>
-              <p>Wysokość: 16 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: 20 zł</p>
-            </div>
-          </a>
-        </article>
+      <section id="products">
+        <div class="products">
+          <article class="product" data-category="wielkanoc">
+            <a href="jajko z nogami.html">
+              <img
+                src="zdjęcia/Jajka z nogami.png"
+                alt="Królik z nogami"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Świecący jajko z uszami</p>
+                <p>Wysokość: 16 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <article class="product" data-category="wielkanoc">
-          <a href="jajko paski uszy.html">
-            <img src="zdjęcia/jajko paski uszy.png" alt="Jajko w paski" loading="lazy">
-            <div class="info">
-              <p>Jajko w paski z uszami</p>
-              <p>Wysokość: mały 13 cm, duży 17 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <article class="product" data-category="wielkanoc">
+            <a href="jajko paski uszy.html">
+              <img
+                src="zdjęcia/jajko paski uszy.png"
+                alt="Jajko w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Jajko w paski z uszami</p>
+                <p>Wysokość: mały 13 cm, duży 17 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 4 – zestaw królików, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="zestaw 3 królików.html">
-            <img src="zdjęcia/zestaw.jpg" alt="zestaw" loading="lazy">
-            <div class="info">
-              <p>Zestaw 3 królików</p>
-              <p>Wysokości: Mały 8 cm, Średni 11 cm, Duży 16 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Szary, Jasny brąz</p>
-              <p>Cena: 60 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 4 – zestaw królików, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="zestaw 3 królików.html">
+              <img src="zdjęcia/zestaw.jpg" alt="zestaw" loading="lazy" />
+              <div class="info">
+                <p>Zestaw 3 królików</p>
+                <p>Wysokości: Mały 8 cm, Średni 11 cm, Duży 16 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Szary, Jasny brąz</p>
+                <p>Cena: 60 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 5 – królik, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="krolik voronoi.html">
-            <img src="zdjęcia/zając.png" alt="zając" loading="lazy">
-            <div class="info">
-              <p>Królik voronoi</p>
-              <p>Wysokości: Mały 8 cm, Średni 11 cm, Duży 16 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Szary, Jasny brąz</p>
-              <p>Ceny: Mały 10 zł, Średni 20 zł, Duży 30 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 5 – królik, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="krolik voronoi.html">
+              <img src="zdjęcia/zając.png" alt="zając" loading="lazy" />
+              <div class="info">
+                <p>Królik voronoi</p>
+                <p>Wysokości: Mały 8 cm, Średni 11 cm, Duży 16 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Szary, Jasny brąz</p>
+                <p>Ceny: Mały 10 zł, Średni 20 zł, Duży 30 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 6 – królik, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="królik w paski.html">
-            <img src="zdjęcia/królik paski uszy.png" alt="Królik w paski i uszy" loading="lazy">
-            <div class="info">
-              <p>Królik w paski</p>
-              <p>Wysokość: mały 10 cm, duży 18 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 6 – królik, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="królik w paski.html">
+              <img
+                src="zdjęcia/królik paski uszy.png"
+                alt="Królik w paski i uszy"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Królik w paski</p>
+                <p>Wysokość: mały 10 cm, duży 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 7 – jajko, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="jajko w paski.html">
-            <img src="zdjęcia/jajko paski.png" alt="Jajko w paski" loading="lazy">
-            <div class="info">
-              <p>Jajko w paski</p>
-              <p>Wysokość: mały 10 cm, duży 18 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 7 – jajko, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="jajko w paski.html">
+              <img
+                src="zdjęcia/jajko paski.png"
+                alt="Jajko w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Jajko w paski</p>
+                <p>Wysokość: mały 10 cm, duży 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 9 – królik, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="królik w kwiatki.html">
-            <img src="zdjęcia/stojący królik z kwiatkami.png" alt="Stojący królik" loading="lazy">
-            <div class="info">
-              <p>Stojący królik w kwiatki</p>
-              <p>Wysokość: 13 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: 10 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 9 – królik, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="królik w kwiatki.html">
+              <img
+                src="zdjęcia/stojący królik z kwiatkami.png"
+                alt="Stojący królik"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Stojący królik w kwiatki</p>
+                <p>Wysokość: 13 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 10 – aniołki, kategoria "ozdoby" -->
-        <article class="product" data-category="ozdoby">
-          <a href="aniołki z sercem.html">
-            <img src="zdjęcia/aniołki z sercem.png" alt="Dwa aniołki" loading="lazy">
-            <div class="info">
-              <p>Dwa aniołki</p>
-              <p>Wysokość: mały 10 cm, duży 20 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 10 – aniołki, kategoria "ozdoby" -->
+          <article class="product" data-category="ozdoby">
+            <a href="aniołki z sercem.html">
+              <img
+                src="zdjęcia/aniołki z sercem.png"
+                alt="Dwa aniołki"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Dwa aniołki</p>
+                <p>Wysokość: mały 10 cm, duży 20 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 11 – aniołek, kategoria "ozdoby" -->
-        <article class="product" data-category="ozdoby">
-          <a href="aniołek.html">
-            <img src="zdjęcia/aniołek.png" alt="Aniołek" loading="lazy">
-            <div class="info">
-              <p>Aniołek</p>
-              <p>Wysokość: mały 8 cm, duży 16 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 11 – aniołek, kategoria "ozdoby" -->
+          <article class="product" data-category="ozdoby">
+            <a href="aniołek.html">
+              <img src="zdjęcia/aniołek.png" alt="Aniołek" loading="lazy" />
+              <div class="info">
+                <p>Aniołek</p>
+                <p>Wysokość: mały 8 cm, duży 16 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 12 – jajko, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="długie jajko uszy.html">
-            <img src="zdjęcia/długie jajko uszy.png" alt="Długie jajko" loading="lazy">
-            <div class="info">
-              <p>Długie jajko w paski z uszami</p>
-              <p>Wysokość:mały 12 cm, duży 18 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 12 – jajko, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="długie jajko uszy.html">
+              <img
+                src="zdjęcia/długie jajko uszy.png"
+                alt="Długie jajko"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Długie jajko w paski z uszami</p>
+                <p>Wysokość:mały 12 cm, duży 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 13 – królik, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="stojący królik.html">
-            <img src="zdjęcia/stojący królik.png" alt="Stojący królik z sercem" loading="lazy">
-            <div class="info">
-              <p>Stojący królik z sercem</p>
-              <p>Wysokość: mały 10 cm, duży 18 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 5 zł, duży 10 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 13 – królik, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="stojący królik.html">
+              <img
+                src="zdjęcia/stojący królik.png"
+                alt="Stojący królik z sercem"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Stojący królik z sercem</p>
+                <p>Wysokość: mały 10 cm, duży 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 5 zł, duży 10 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 14 – królik, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="królik z nogami.html">
-            <img src="zdjęcia/królik z nogami.png" alt="Świecący królik" loading="lazy">
-            <div class="info">
-              <p>Świecący królik z nogami</p>
-              <p>Wysokość: 18 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: 30 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 14 – królik, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="królik z nogami.html">
+              <img
+                src="zdjęcia/królik z nogami.png"
+                alt="Świecący królik"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Świecący królik z nogami</p>
+                <p>Wysokość: 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 30 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 15 – królik, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="królik z sercem.html">
-            <img src="zdjęcia/króliki z sercem.png" alt="Jednokolorowy świecący królik" loading="lazy">
-            <div class="info">
-              <p>Jednokolorowy świecący królik z sercem</p>
-              <p>Wysokość: 13 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 15 – królik, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="królik z sercem.html">
+              <img
+                src="zdjęcia/króliki z sercem.png"
+                alt="Jednokolorowy świecący królik"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Jednokolorowy świecący królik z sercem</p>
+                <p>Wysokość: 13 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 16 – sowa, kategoria "ozdoby" -->
-        <article class="product" data-category="ozdoby">
-          <a href="sowa.html">
-            <img src="zdjęcia/sowa.png" alt="Sowa" loading="lazy">
-            <div class="info">
-              <p>Sowa</p>
-              <p>Wysokość: mały 10 cm, duży 17 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 16 – sowa, kategoria "ozdoby" -->
+          <article class="product" data-category="ozdoby">
+            <a href="sowa.html">
+              <img src="zdjęcia/sowa.png" alt="Sowa" loading="lazy" />
+              <div class="info">
+                <p>Sowa</p>
+                <p>Wysokość: mały 10 cm, duży 17 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 17 – aniołek, kategoria "ozdoby" -->
-        <article class="product" data-category="ozdoby">
-          <a href="śpiący aniołek.html">
-            <img src="zdjęcia/śpiący aniołek.png" alt="Śpiący aniołek" loading="lazy">
-            <div class="info">
-              <p>Śpiący aniołek</p>
-              <p>Wysokość: mały 6 cm, średni 9 cm, duży 11 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 20 zł, średni 35 zł, duży 50 zł</p>
-            </div>
-          </a>
-        </article>
+          <!-- Produkt 17 – aniołek, kategoria "ozdoby" -->
+          <article class="product" data-category="ozdoby">
+            <a href="śpiący aniołek.html">
+              <img
+                src="zdjęcia/śpiący aniołek.png"
+                alt="Śpiący aniołek"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Śpiący aniołek</p>
+                <p>Wysokość: mały 6 cm, średni 9 cm, duży 11 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 20 zł, średni 35 zł, duży 50 zł</p>
+              </div>
+            </a>
+          </article>
 
-        <!-- Produkt 18 – jajko, kategoria "wielkanoc" -->
-        <article class="product" data-category="wielkanoc">
-          <a href="króliczek.html">
-            <img src="zdjęcia/króliczki w paski.png" alt="Jajko z nogami w paski" loading="lazy">
-            <div class="info">
-              <p>Jajko z nogami w paski</p>
-              <p>Wysokość: mały 7 cm, średni 9 cm, duży 11 cm</p>
-              <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
-              <p>Cena: mały 10 zł, średni 15 zł, duży 20 zł</p>
-            </div>
-          </a>
-        </article>
-        <article class="product" data-category="wielkanoc">
+          <!-- Produkt 18 – jajko, kategoria "wielkanoc" -->
+          <article class="product" data-category="wielkanoc">
+            <a href="króliczek.html">
+              <img
+                src="zdjęcia/króliczki w paski.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Jajko z nogami w paski</p>
+                <p>Wysokość: mały 7 cm, średni 9 cm, duży 11 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, średni 15 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wielkanoc">
             <a href="królik w jajku.html">
-              <img src="zdjęcia/królik w jajku.png" alt="Jajko z nogami w paski" loading="lazy">
+              <img
+                src="zdjęcia/królik w jajku.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
               <div class="info">
                 <p>Królik w jajku</p>
                 <p>Wysokość: mały 5 cm, średni 10 cm, duży 15 cm</p>
@@ -249,62 +301,457 @@
               </div>
             </a>
           </article>
+
+          <article class="product" data-category="wazony">
+            <a href="długi wazon.html">
+              <img
+                src="zdjęcia/długi wazon.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Długi wazon</p>
+                <p>Wysokość: 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 25 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wazony">
+            <a href="doniczka.html">
+              <img
+                src="zdjęcia/doniczka.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Designerska doniczka EchoPod</p>
+                <p>Wysokość: 6 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wazony">
+            <a href="duży spiralny wazon.html">
+              <img
+                src="zdjęcia/duży spiralny wazon.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Wazon z geometrycznym wzorem</p>
+                <p>Wysokość: 17 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 30 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wazony">
+            <a href="duży wazon w paski.html">
+              <img
+                src="zdjęcia/duży wazon w paski.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Wazon w stylu japońskim</p>
+                <p>Wysokość: 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 50 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wielkanoc">
+            <a href="falisty królik.html">
+              <img
+                src="zdjęcia/falisty królik.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Króliczek wielkanocny z sercem</p>
+                <p>Wysokość: 14 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 15 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="flexi baby dragon.html">
+              <img
+                src="zdjęcia/flexi baby dragon.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Flexi mały smoczek</p>
+                <p>Wysokość: 3 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="flexi hammer.html">
+              <img
+                src="zdjęcia/flexi hammer.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczny rekin młot</p>
+                <p>Wysokość: 3 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="flexi hippo.html">
+              <img
+                src="zdjęcia/flexi hippo.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczny hipopotam</p>
+                <p>Wysokość: 4 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="flexi ośmiornica.html">
+              <img
+                src="zdjęcia/flexi ośmiornica.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczna ośmiornica</p>
+                <p>Wysokość: 4 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="breloki">
+            <a href="flexi rekin.html">
+              <img
+                src="zdjęcia/flaxi shark.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczny rekin</p>
+                <p>Wysokość: 3 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="flexi snake.html">
+              <img
+                src="zdjęcia/flexi snake.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczny wąż</p>
+                <p>Długość: 110 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wazony">
+            <a href="gruby wazon.html">
+              <img
+                src="zdjęcia/gruby wazon.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Wazon z geometrycznym wzorem</p>
+                <p>Wysokość: 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 40 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wielkanoc">
+            <a href="jajko spirala.html">
+              <img
+                src="zdjęcia/jajko spirala.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Spiralne króliczki wielkanocne</p>
+                <p>
+                  Wysokość: mały 3 cm, średni 4 cm, duży 5 cm, bardzo duży 10 cm
+                </p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>
+                  Cena: mały 10 zł, średni 15 zł, duży 20 zł, bardzo duży 30 zł
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="breloki">
+            <a href="keyrambit.html">
+              <img
+                src="zdjęcia/keyrambit.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Keyrambit</p>
+                <p>Długość: 6 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="klocki.html">
+              <img
+                src="zdjęcia/klocki.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Nieskończona kostka</p>
+                <p>Wysokość: 2 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="ozdoby">
+            <a href="kwiatek mc.html">
+              <img
+                src="zdjęcia/kwiatek mc.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Tulipan z Minecraft</p>
+                <p>Wysokość: 15 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="ozdoby">
+            <a href="liście.html">
+              <img
+                src="zdjęcia/liście.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Podkładki pod kubek w kształcie liści monstery</p>
+                <p>Długość: 10 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł / szt</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="ozdoby">
+            <a href="lovers.html">
+              <img
+                src="zdjęcia/lovers.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Rzeźba "Miłość"</p>
+                <p>Wysokość: 14 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="breloki">
+            <a href="niedźwiedź brelok.html">
+              <img
+                src="zdjęcia/bear keychain.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczny miś</p>
+                <p>Wysokość: 3 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 10 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="ozdoby">
+            <a href="nissan.html">
+              <img
+                src="zdjęcia/nissan.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Figurka Nissan GT-R Liberty Walk</p>
+                <p>Wysokość: 6 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 15 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wielkanoc">
+            <a href="owca.html">
+              <img
+                src="zdjęcia/owca.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Urocza owieczka</p>
+                <p>Wysokość: Mały 6 cm, Średni 12 cm, Duży 15 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: Mały 10 zł, Średni 20 zł, Duży 30 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="inne">
+            <a href="plant support.html">
+              <img
+                src="zdjęcia/plant support.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Designerska podpórka do roślin</p>
+                <p>Wysokość: Typ S 22 cm, Typ Liść 21 cm, Typ O 21 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: Typ S 10 cm, Typ Liść 10 cm, Typ O 10 cm</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="breloki">
+            <a href="rex keychain.html">
+              <img
+                src="zdjęcia/rex keychain.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Elastyczny brelok Rex</p>
+                <p>Wysokość: mały 5 cm, duży 10 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 10 zł, duży 20 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="ozdoby">
+            <a href="świecący anioł.html">
+              <img
+                src="zdjęcia/świecący anioł.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Świecąca figurka anioła</p>
+                <p>Wysokość: 14 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: 40 zł</p>
+              </div>
+            </a>
+          </article>
+          <article class="product" data-category="wazony">
+            <a href="wazon w paski.html">
+              <img
+                src="zdjęcia/wazon w paski.png"
+                alt="Jajko z nogami w paski"
+                loading="lazy"
+              />
+              <div class="info">
+                <p>Wazon "Strata"</p>
+                <p>Wysokość: mały 10 cm, duży 18 cm</p>
+                <p>Kolory: Biały, Zielony, Żółty, Czarny, Szary, Jasny brąz</p>
+                <p>Cena: mały 20 zł, duży 40 zł</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <!-- Komunikat wyświetlany, gdy brak produktów w danej kategorii -->
+        <div
+          id="no-products-message"
+          style="
+            display: none;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+          "
+        >
+          Brak produktów w tej kategorii
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <nav class="contact">
+          <p>Kontakt: rex3d.kontakt@gmail.com</p>
+        </nav>
+        <nav class="footer-links">
+          <a href="index.html">Główna</a>
+          <a href="produkty.html">Produkty</a>
+          <a href="info.html">Informacje</a>
+        </nav>
       </div>
-      <!-- Komunikat wyświetlany, gdy brak produktów w danej kategorii -->
-      <div id="no-products-message" style="display: none; text-align: center; padding: 20px; font-weight: bold;">
-        Brak produktów w tej kategorii
-      </div>
-    </section>
-  </main>
+      <p class="copyright">&copy; 2025 Rex3D | Wszelkie prawa zastrzeżone</p>
+    </footer>
 
-  <footer>
-    <div class="footer-container">
-      <nav class="contact">
-        <p>Kontakt: rex3d.kontakt@gmail.com</p>
-      </nav>
-      <nav class="footer-links">
-        <a href="index.html">Główna</a>
-        <a href="produkty.html">Produkty</a>
-        <a href="info.html">Informacje</a>
-      </nav>
-    </div>
-    <p class="copyright">&copy; 2025 Rex3D | Wszelkie prawa zastrzeżone</p>
-  </footer>
+    <!-- Skrypt filtrujący -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const products = document.querySelectorAll(".product");
+        const noProductsMessage = document.getElementById(
+          "no-products-message"
+        );
 
-  <!-- Skrypt filtrujący -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const filterButtons = document.querySelectorAll('.filter-btn');
-      const products = document.querySelectorAll('.product');
-      const noProductsMessage = document.getElementById('no-products-message');
+        filterButtons.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            // Usuń klasę active ze wszystkich przycisków
+            filterButtons.forEach((button) =>
+              button.classList.remove("active")
+            );
+            btn.classList.add("active");
 
-      filterButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          // Usuń klasę active ze wszystkich przycisków
-          filterButtons.forEach(button => button.classList.remove('active'));
-          btn.classList.add('active');
+            const filterValue = btn.getAttribute("data-filter");
+            let visibleCount = 0;
 
-          const filterValue = btn.getAttribute('data-filter');
-          let visibleCount = 0;
+            products.forEach((product) => {
+              if (
+                filterValue === "all" ||
+                product.getAttribute("data-category") === filterValue
+              ) {
+                product.style.display = "block";
+                visibleCount++;
+              } else {
+                product.style.display = "none";
+              }
+            });
 
-          products.forEach(product => {
-            if (filterValue === 'all' || product.getAttribute('data-category') === filterValue) {
-              product.style.display = 'block';
-              visibleCount++;
+            // Jeśli żaden produkt nie jest widoczny, wyświetl komunikat
+            if (visibleCount === 0) {
+              noProductsMessage.style.display = "block";
             } else {
-              product.style.display = 'none';
+              noProductsMessage.style.display = "none";
             }
           });
-
-          // Jeśli żaden produkt nie jest widoczny, wyświetl komunikat
-          if (visibleCount === 0) {
-            noProductsMessage.style.display = 'block';
-          } else {
-            noProductsMessage.style.display = 'none';
-          }
         });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
