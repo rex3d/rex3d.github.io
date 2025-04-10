@@ -1,4 +1,4 @@
-/* General Reset and Body Styling aaa*/
+/* General Reset and Body Styling */
 * {
   margin: 0;
   padding: 0;
@@ -413,9 +413,10 @@ a:hover {
 }
 
 .promo-image img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Responsywność dla telefonów (max-width: 768px) */
@@ -439,10 +440,11 @@ a:hover {
   }
 
   .promo-image img {
-    max-width: 15em; /* Zmniejsz szerokość obrazka */
+    max-width: 15em;
     height: auto;
-    margin: 0; /* Usuń automatyczne wyśrodkowanie */
-  }
+    display: block;
+    margin: 0 auto;
+}
 }
 
 .promo-box1 {
@@ -553,4 +555,9 @@ a:hover {
   .contact {
     margin-bottom: 10px; /* Dodaj odstęp między kontaktem a linkami */
   }
+}
+
+.promo-box1 p {
+  font-size: 16px; /* Zmniejsz rozmiar tekstu */
+  line-height: 1.5; /* Popraw czytelność */
 }
