@@ -359,3 +359,198 @@ a:hover {
   background-color: #146b81;
 }
 
+.promo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffacd; /* Jasnożółty kolor */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo-text {
+  flex: 1;
+  text-align: center; /* Wyśrodkuj tekst */
+  margin: 0 20px; /* Dodaj margines po lewej i prawej stronie */
+}
+
+.promo-image {
+  flex: 1;
+  text-align: center;
+}
+
+.promo-text h2 {
+  font-size: 32px; /* Powiększ nagłówek */
+  margin-bottom: 15px; /* Dostosuj odstęp */
+}
+
+.promo-text p {
+  font-size: 20px; /* Powiększ tekst */
+  margin-bottom: 25px; /* Dostosuj odstęp */
+}
+
+.promo-button {
+  display: inline-block;
+  padding: 15px 30px; /* Większy przycisk */
+  background-color: #ffcc00;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15px; /* Bardziej zaokrąglone rogi */
+  transition: background-color 0.3s;
+  font-size: 20px; /* Powiększ tekst */
+  border: 2px solid #000; /* Cienka czarna obramówka */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodaj cień do przycisku */
+  cursor: pointer; /* Zmiana kursora na wskaźnik */
+  margin-top: 20px; /* Dostosuj odstęp od tekstu */
+  transition: background-color 0.3s, transform 0.3s; /* Dodaj animację dla transformacji */
+}
+
+.promo-button:hover {
+  background-color: #e6b800;
+}
+
+.promo-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsywność dla telefonów (max-width: 768px) */
+@media (max-width: 768px) {
+  .promo-box {
+    flex-direction: row; /* Ustaw elementy w wierszu */
+    justify-content: space-between; /* Rozmieść elementy */
+    align-items: center; /* Wyrównaj elementy w pionie */
+    text-align: left; /* Tekst wyrównany do lewej */
+  }
+
+  .promo-text {
+    text-align: left; /* Tekst wyrównany do lewej */
+    margin-right: 20px; /* Dodaj odstęp między tekstem a obrazkiem */
+    margin-bottom: 0; /* Usuń dolny margines */
+  }
+
+  .promo-button {
+    padding: 10px 20px; /* Dostosuj rozmiar przycisku */
+    font-size: 18px; /* Zmniejsz rozmiar tekstu */
+  }
+
+  .promo-image img {
+    max-width: 15em; /* Zmniejsz szerokość obrazka */
+    height: auto;
+    margin: 0; /* Usuń automatyczne wyśrodkowanie */
+  }
+}
+
+.promo-box1 {
+  display: flex;
+  flex-direction: column; /* Ustaw elementy w kolumnie */
+  align-items: center; /* Wyśrodkuj poziomo */
+  background-color: #fffacd; /* Jasnożółty kolor */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Wyśrodkuj tekst */
+}
+
+.promo-text1 h1 {
+  font-size: 32px; /* Powiększ nagłówek */
+  margin-bottom: 15px; /* Dostosuj odstęp */
+  color: #333; /* Kolor tekstu */
+}
+
+.promo-text1 p {
+  font-size: 20px; /* Powiększ tekst */
+  margin-bottom: 25px; /* Dostosuj odstęp */
+  color: #555; /* Kolor tekstu */
+}
+
+/* Dodanie odstępu między sekcjami */
+#home {
+  margin-bottom: 40px; /* Odstęp poniżej sekcji Nowości */
+}
+
+.promo-box1 {
+  margin-top: 40px; /* Odstęp powyżej sekcji Odkryj świat Rex3D */
+}
+
+#waiting-time {
+  background-color: #fffacd; /* Jasnożółte tło */
+  border: 1px solid #ddd; /* Delikatna ramka */
+  border-radius: 10px; /* Zaokrąglone rogi */
+  padding: 20px; /* Wewnętrzne odstępy */
+  margin: 40px 0; /* Odstępy od innych sekcji */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+}
+
+#waiting-time h1 {
+  font-size: 28px; /* Rozmiar nagłówka */
+  color: #333; /* Kolor tekstu */
+  margin-bottom: 15px; /* Odstęp poniżej nagłówka */
+}
+
+#waiting-time-info {
+  font-size: 18px; /* Rozmiar tekstu */
+  line-height: 1.6; /* Wysokość linii dla lepszej czytelności */
+  color: #444; /* Kolor tekstu */
+}
+
+/* Responsywność dla sekcji #waiting-time */
+@media (max-width: 768px) {
+  #waiting-time {
+    padding: 15px; /* Zmniejszenie paddingu */
+    margin: 20px 0; /* Zmniejszenie marginesów */
+    font-size: 16px; /* Zmniejszenie rozmiaru tekstu */
+  }
+
+  #waiting-time h1 {
+    font-size: 24px; /* Zmniejszenie rozmiaru nagłówka */
+  }
+
+  #waiting-time-info {
+    font-size: 14px; /* Zmniejszenie rozmiaru tekstu opisu */
+    line-height: 1.4; /* Zmniejszenie wysokości linii */
+  }
+}
+
+/* Responsywność dla telefonów (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Nawigacja - linki ustawione poziomo */
+  nav ul {
+    flex-direction: row; /* Ustaw linki w jednym rzędzie */
+    justify-content: center; /* Wyśrodkuj linki */
+    gap: 10px; /* Odstęp między linkami */
+  }
+
+  nav ul li {
+    margin: 0; /* Usuń dodatkowe marginesy */
+  }
+
+  /* Filtry - ustawienie poziome */
+  .filter-container {
+    flex-direction: row; /* Ustaw filtry w jednym rzędzie */
+    justify-content: center; /* Wyśrodkuj filtry */
+    gap: 10px; /* Odstęp między filtrami */
+  }
+
+  /* Stopka - linki ustawione poziomo */
+  footer .footer-links {
+    flex-direction: row; /* Ustaw linki w jednym rzędzie */
+    justify-content: center; /* Wyśrodkuj linki */
+    gap: 10px; /* Odstęp między linkami */
+  }
+
+  footer .footer-container {
+    flex-direction: column; /* Kontener stopki w kolumnie */
+    align-items: center; /* Wyśrodkuj zawartość */
+  }
+
+  .contact {
+    margin-bottom: 10px; /* Dodaj odstęp między kontaktem a linkami */
+  }
+}
