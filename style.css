@@ -440,10 +440,38 @@ a:hover {
   }
 
   .promo-image img {
-    max-width: 15em;
+    max-width: 10em;
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;;
+}
+
+.promo-text h2 {
+  font-size: 20px; /* Powiększ nagłówek */
+  margin-bottom: 10px; /* Dostosuj odstęp */
+}
+
+.promo-text p {
+  font-size: 12px; /* Powiększ tekst */
+  margin-bottom: 15px; /* Dostosuj odstęp */
+}
+
+.promo-button {
+  display: inline-block;
+  padding: 12px 25px; /* Większy przycisk */
+  background-color: #ffcc00;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15px; /* Bardziej zaokrąglone rogi */
+  transition: background-color 0.3s;
+  font-size: 15px; /* Powiększ tekst */
+  border: 2px solid #000; /* Cienka czarna obramówka */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodaj cień do przycisku */
+  cursor: pointer; /* Zmiana kursora na wskaźnik */
+  margin-top: 20px; /* Dostosuj odstęp od tekstu */
+  transition: background-color 0.3s, transform 0.3s; /* Dodaj animację dla transformacji */
 }
 }
 
