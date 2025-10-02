@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Rex3DDD/static/css/main.d59798b6.css",
+    "main.js": "/Rex3DDD/static/js/main.b5d9d7a9.js",
+    "static/js/71.8ec9a327.chunk.js": "/Rex3DDD/static/js/71.8ec9a327.chunk.js",
+    "static/js/735.62bc438f.chunk.js": "/Rex3DDD/static/js/735.62bc438f.chunk.js",
+    "static/js/197.2b14719f.chunk.js": "/Rex3DDD/static/js/197.2b14719f.chunk.js",
+    "static/js/936.4617f6ff.chunk.js": "/Rex3DDD/static/js/936.4617f6ff.chunk.js",
+    "static/js/680.25ac54a4.chunk.js": "/Rex3DDD/static/js/680.25ac54a4.chunk.js",
+    "static/js/137.2e5c99c7.chunk.js": "/Rex3DDD/static/js/137.2e5c99c7.chunk.js",
+    "static/js/687.96d515a7.chunk.js": "/Rex3DDD/static/js/687.96d515a7.chunk.js",
+    "static/js/292.b9d2357a.chunk.js": "/Rex3DDD/static/js/292.b9d2357a.chunk.js",
+    "static/js/608.f2e50853.chunk.js": "/Rex3DDD/static/js/608.f2e50853.chunk.js",
+    "static/js/259.81832617.chunk.js": "/Rex3DDD/static/js/259.81832617.chunk.js",
+    "static/css/256.46d72a16.chunk.css": "/Rex3DDD/static/css/256.46d72a16.chunk.css",
+    "static/js/256.317d75a8.chunk.js": "/Rex3DDD/static/js/256.317d75a8.chunk.js",
+    "static/js/900.470e6a92.chunk.js": "/Rex3DDD/static/js/900.470e6a92.chunk.js",
+    "static/js/888.2b9b3059.chunk.js": "/Rex3DDD/static/js/888.2b9b3059.chunk.js",
+    "static/js/191.4773b200.chunk.js": "/Rex3DDD/static/js/191.4773b200.chunk.js",
+    "index.html": "/Rex3DDD/index.html",
+    "main.d59798b6.css.map": "/Rex3DDD/static/css/main.d59798b6.css.map",
+    "main.b5d9d7a9.js.map": "/Rex3DDD/static/js/main.b5d9d7a9.js.map",
+    "71.8ec9a327.chunk.js.map": "/Rex3DDD/static/js/71.8ec9a327.chunk.js.map",
+    "735.62bc438f.chunk.js.map": "/Rex3DDD/static/js/735.62bc438f.chunk.js.map",
+    "197.2b14719f.chunk.js.map": "/Rex3DDD/static/js/197.2b14719f.chunk.js.map",
+    "936.4617f6ff.chunk.js.map": "/Rex3DDD/static/js/936.4617f6ff.chunk.js.map",
+    "680.25ac54a4.chunk.js.map": "/Rex3DDD/static/js/680.25ac54a4.chunk.js.map",
+    "137.2e5c99c7.chunk.js.map": "/Rex3DDD/static/js/137.2e5c99c7.chunk.js.map",
+    "687.96d515a7.chunk.js.map": "/Rex3DDD/static/js/687.96d515a7.chunk.js.map",
+    "292.b9d2357a.chunk.js.map": "/Rex3DDD/static/js/292.b9d2357a.chunk.js.map",
+    "608.f2e50853.chunk.js.map": "/Rex3DDD/static/js/608.f2e50853.chunk.js.map",
+    "259.81832617.chunk.js.map": "/Rex3DDD/static/js/259.81832617.chunk.js.map",
+    "256.46d72a16.chunk.css.map": "/Rex3DDD/static/css/256.46d72a16.chunk.css.map",
+    "256.317d75a8.chunk.js.map": "/Rex3DDD/static/js/256.317d75a8.chunk.js.map",
+    "888.2b9b3059.chunk.js.map": "/Rex3DDD/static/js/888.2b9b3059.chunk.js.map",
+    "191.4773b200.chunk.js.map": "/Rex3DDD/static/js/191.4773b200.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d59798b6.css",
+    "static/js/main.b5d9d7a9.js"
+  ]
+}

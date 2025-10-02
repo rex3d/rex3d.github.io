@@ -1,0 +1,20 @@
+{
+    "links": {
+        "newsletterForm": "https://formspree.io/f/xdklkkea",
+        "contactForm": "https://formspree.io/f/mgvlvejq",
+        "email": "mailto:rex3d.kontakt@gmail.com",
+        "vinted": "https://www.vinted.pl/",
+        "instagram": "javascript:void(0)",
+        "linkedin": "javascript:void(0)",
+        "formspreeOpinion": "https://formspree.io/f/meoloyqw"
+    },
+    "contactInfo": {
+        "displayEmail": "rex3d.kontakt@gmail.com"
+    },
+    "recaptcha": {
+        "siteKey": "6Le46LUrAAAAAF37kkcPWTq_7-M51i8dlQGmg4qk"
+    },
+    "supabase": {
+        "url": "https://jezkkxejulzfdjvqkmdq.supabase.co"
+    }
+}

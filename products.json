@@ -1,0 +1,574 @@
+[
+  {
+    "id": "aniolek",
+    "name": "Aniołek",
+    "description": "Ten uroczy, minimalistyczny aniołek to subtelna i elegancka ozdoba. Jego prosta forma i uniwersalny biały kolor sprawiają, że będzie pasował do każdego stylu wnętrza.",
+    "mainImage": "/zdjęcia/aniołek.png",
+    "gallery": ["/zdjęcia/aniołek.png"],
+    "heightOptions": [
+      { "label": "mały 8 cm", "price": "10 zł" },
+      { "label": "duży 16 cm", "price": "20 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "isNew": true,
+    "isBestseller": true,
+    "sku": 1001
+  },
+
+  {
+    "id": "aniolki-z-sercem",
+    "name": "Dwa aniołki",
+    "description": "Ten piękny anioł to idealny dodatek do Twojego domu. Jego delikatny design i staranne wykonanie dodadzą mu lekkości i subtelnego uroku.",
+    "mainImage": "/zdjęcia/aniołki z sercem.png",
+    "gallery": ["/zdjęcia/aniołki z sercem.png"],
+    "heightOptions": [
+      { "label": "mały 10 cm", "price": "10 zł" },
+      { "label": "duży 20 cm", "price": "20 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1002
+  },
+  {
+    "id": "dlugi-wazon",
+    "name": "Długi wazon",
+    "description": "Nowoczesny wazon z trójwymiarowym, spiralnym wzorem. Dostępny w różnych kolorach, idealny do eksponowania suszonych kwiatów lub jako samodzielna dekoracja wnętrza. Nie jest zalecany do długotrwałego kontaktu z wodą – choć teoretycznie może ją utrzymać, nie przeprowadzono stosownych testów.",
+    "mainImage": "/zdjęcia/długi wazon.png",
+    "gallery": ["/zdjęcia/długi wazon.png"],
+    "heightOptions": [{ "label": "18 cm", "price": "25 zł", "promoPrice": "20 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "wazony",
+    "sku": 1003
+  },
+  {
+    "id": "doniczka",
+    "name": "Designerska doniczka EchoPod",
+    "description": "Stylowa doniczka z unikalną, siatkową strukturą, idealna do nowoczesnych wnętrz. Dostępna w różnych rozmiarach, idealna do sukulentów, bonsai i innych roślin. Nie jest zalecany do długotrwałego kontaktu z wodą – choć teoretycznie może ją utrzymać, nie przeprowadzono stosownych testów.",
+    "mainImage": "/zdjęcia/doniczka.png",
+    "gallery": ["/zdjęcia/doniczka.png"],
+    "heightOptions": [{ "label": "6 cm", "price": "20 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "wazony",
+    "sku": 1004
+  },
+  {
+    "id": "duzy-spiralny-wazon",
+    "name": "Wazon z geometrycznym wzorem",
+    "description": "Nowoczesny i elegancki wazon z unikalnym, geometrycznym wzorem. Idealny do eksponowania suszonych kwiatów lub jako samodzielna dekoracja wnętrza. Nie jest zalecany do długotrwałego kontaktu z wodą – choć teoretycznie może ją utrzymać, nie przeprowadzono stosownych testów.",
+    "mainImage": "/zdjęcia/duży spiralny wazon.png",
+    "gallery": ["/zdjęcia/duży spiralny wazon.png"],
+    "heightOptions": [{ "label": "17 cm", "price": "30 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "wazony",
+    "sku": 1005
+  },
+  {
+    "id": "duzy-wazon-w-paski",
+    "name": "Wazon w stylu japońskim",
+    "description": "Elegancki wazon inspirowany japońskim designem. Dostępny w różnych kolorach, idealny do dekoracji wnętrz w stylu minimalistycznym. Nie jest zalecany do długotrwałego kontaktu z wodą – choć teoretycznie może ją utrzymać, nie przeprowadzono stosownych testów.",
+    "mainImage": "/zdjęcia/duży wazon w paski.png",
+    "gallery": ["/zdjęcia/duży wazon w paski.png"],
+    "heightOptions": [{ "label": "18 cm", "price": "50 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "wazony",
+    "sku": 1006
+  },
+  {
+    "id": "flexi-baby-dragon",
+    "name": "Flexi mały smoczek",
+    "description": "Ruchomy i szczegółowy smok wydrukowany w 3D. Dostępny w różnych kolorach, idealny jako zabawka, dekoracja lub prezent dla miłośników fantastyki.",
+    "mainImage": "/zdjęcia/flexi baby dragon.png",
+    "gallery": ["/zdjęcia/flexi baby dragon.png"],
+    "heightOptions": [{ "label": "3 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "isNew": true,
+    "sku": 1007
+  },
+  {
+    "id": "flexi-hammer",
+    "name": "Elastyczny rekin młot",
+    "description": "Zabawny i ruchomy rekin wydrukowany w 3D. Idealny jako brelok do kluczy, zabawka antystresowa lub oryginalna figurka.",
+    "mainImage": "/zdjęcia/flexi hammer.png",
+    "gallery": ["/zdjęcia/flexi hammer.png"],
+    "heightOptions": [{ "label": "3 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "breloki",
+    "sku": 1008
+  },
+  {
+    "id": "flexi-hippo",
+    "name": "Elastyczny hipopotam",
+    "description": "Uroczy, elastyczny hipopotam wydrukowany w 3D. Idealny jako brelok do kluczy, zabawka antystresowa lub dekoracyjna figurka.",
+    "mainImage": "/zdjęcia/flexi hippo.png",
+    "gallery": ["/zdjęcia/flexi hippo.png"],
+    "heightOptions": [{ "label": "4 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "breloki",
+    "sku": 1009
+  },
+  {
+    "id": "flexi-osmiornica",
+    "name": "Elastyczna ośmiornica",
+    "description": "Zabawna i ruchoma ośmiornica, wydrukowana w 3D. Idealna jako zabawka, dekoracja lub antystresowy gadżet.",
+    "mainImage": "/zdjęcia/flexi ośmiornica.png",
+    "gallery": ["/zdjęcia/flexi ośmiornica.png"],
+    "heightOptions": [{ "label": "4 cm", "price": "20 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "sku": 1010
+  },
+  {
+    "id": "flexi-rekin",
+    "name": "Elastyczny rekin",
+    "description": "Zabawny i ruchomy rekin wydrukowany w 3D. Idealny jako brelok do kluczy, zabawka antystresowa lub oryginalna figurka.",
+    "mainImage": "/zdjęcia/flaxi shark.png",
+    "gallery": ["/zdjęcia/flaxi shark.png"],
+    "heightOptions": [{ "label": "3 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "breloki",
+    "sku": 1011
+  },
+  {
+    "id": "flexi-waz",
+    "name": "Elastyczny wąż",
+    "description": "Zabawny i elastyczny wąż wydrukowany w 3D. Dostępny w różnych kolorach, idealny do zabawy, jako antystresowy gadżet lub oryginalny prezent.",
+    "mainImage": "/zdjęcia/flexi snake.png",
+    "gallery": ["/zdjęcia/flexi snake.png"],
+    "heightOptions": [{ "label": "112 cm", "price": "20 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "sku": 1012
+  },
+  {
+    "id": "gruby-wazon",
+    "name": "Wazon z geometrycznym wzorem",
+    "description": "Nowoczesny wazon z unikalnym, geometrycznym wzorem. Idealny do eksponowania kwiatów lub jako samodzielna dekoracja wnętrza. Nie jest zalecany do długotrwałego kontaktu z wodą – choć teoretycznie może ją utrzymać, nie przeprowadzono stosownych testów.",
+    "mainImage": "/zdjęcia/gruby wazon.png",
+    "gallery": ["/zdjęcia/gruby wazon.png"],
+    "heightOptions": [{ "label": "18 cm", "price": "40 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "wazony",
+    "sku": 1013
+  },
+  {
+    "id": "keyrambit",
+    "name": "Keyrambit",
+    "description": "Idealny brelok na nudę! Kręć nim na palcu i baw się w każdej chwili – w kolejce, na przystanku czy podczas wykładu.",
+    "mainImage": "/zdjęcia/keyrambit.png",
+    "gallery": ["/zdjęcia/keyrambit.png"],
+    "heightOptions": [{ "label": "6 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "breloki",
+    "sku": 1014
+  },
+  {
+    "id": "klocki",
+    "name": "Nieskończona kostka",
+    "description": "Innowacyjny łańcuch antystresowy wykonany w technologii druku 3D. Idealny do redukcji stresu, poprawy koncentracji i zabawy.",
+    "mainImage": "/zdjęcia/klocki.png",
+    "gallery": ["/zdjęcia/klocki.png"],
+    "heightOptions": [{ "label": "2 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "sku": 1015
+  },
+  {
+    "id": "kwiatek-mc",
+    "name": "Tulipan z Minecraft",
+    "description": "Kultowy tulipan z gry Minecraft, wydrukowany w 3D. Idealny prezent dla fanów gry lub oryginalna dekoracja biurka.",
+    "mainImage": "/zdjęcia/kwiatek mc.png",
+    "gallery": ["/zdjęcia/kwiatek mc.png"],
+    "heightOptions": [{ "label": "15 cm", "price": "20 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1016
+  },
+  {
+    "id": "liscie",
+    "name": "Podkładki pod kubek w kształcie liści monstery",
+    "description": "Zestaw stylowych podkładek pod kubek w kształcie liści monstery. Idealny dodatek do każdego wnętrza, który ochroni Twoje meble przed zarysowaniami i plamami.",
+    "mainImage": "/zdjęcia/liście.png",
+    "gallery": ["/zdjęcia/liście.png"],
+    "heightOptions": [{ "label": "10 cm", "price": "10 zł / szt" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1017
+  },
+  {
+    "id": "lovers",
+    "name": "Rzeźba Miłość",
+    "description": "Wyjątkowa rzeźba przedstawiająca symbol miłości w nowoczesnej formie. Idealna jako prezent dla ukochanej osoby lub elegancka dekoracja wnętrza.",
+    "mainImage": "/zdjęcia/lovers.png",
+    "gallery": ["/zdjęcia/lovers.png"],
+    "heightOptions": [{ "label": "14 cm", "price": "20 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1018
+  },
+  {
+    "id": "niedzwiedz-brelok",
+    "name": "Elastyczny miś",
+    "description": "Uroczy, elastyczny miś wydrukowany w 3D. Idealny jako brelok do kluczy, zabawka antystresowa lub dekoracyjna figurka.",
+    "mainImage": "/zdjęcia/bear keychain.png",
+    "gallery": ["/zdjęcia/bear keychain.png"],
+    "heightOptions": [{ "label": "3 cm", "price": "10 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "breloki",
+    "sku": 1019
+  },
+  {
+    "id": "nissan",
+    "name": "Figurka Nissan GT-R Liberty Walk",
+    "description": "Wyjątkowa, figurka przedstawiająca kultowy model Nissan GT-R w wersji Liberty Walk. Idealna dla fanów motoryzacji i japońskich samochodów.",
+    "mainImage": "/zdjęcia/nissan.png",
+    "gallery": ["/zdjęcia/nissan.png"],
+    "heightOptions": [{ "label": "6 cm", "price": "15 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1020
+  },
+  {
+    "id": "owca",
+    "name": "Urocza owieczka",
+    "description": "Urocza figurka owieczki wykonana w technologii druku 3D. Idealna jako dekoracja lub prezent dla miłośników zwierząt.",
+    "mainImage": "/zdjęcia/owca.png",
+    "gallery": ["/zdjęcia/owca.png"],
+    "heightOptions": [
+      { "label": "Mały 6 cm", "price": "10 zł" },
+      { "label": "Średni 12 cm", "price": "20 zł" },
+      { "label": "Duży 15 cm", "price": "30 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1021
+  },
+  {
+    "id": "plant-support",
+    "name": "Designerska podpórka do roślin",
+    "description": "Stylowa i funkcjonalna podpórka do roślin, która doda charakteru Twoim doniczkom. Dostępna w różnych kształtach i kolorach, idealna do pnących się roślin.",
+    "mainImage": "/zdjęcia/plant support.png",
+    "gallery": ["/zdjęcia/plant support.png"],
+    "heightOptions": [
+      { "label": "Typ S 22 cm", "price": "10 zł" },
+      { "label": "Typ Liść 21 cm", "price": "10 zł" },
+      { "label": "Typ O 21 cm", "price": "10 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "sku": 1022
+  },
+  {
+    "id": "rex-keychain",
+    "name": "Elastyczny brelok Rex",
+    "description": "Zabawny i elastyczny brelok z dinozaurem Rexem. Idealny dodatek do kluczy, plecaka lub torby.",
+    "mainImage": "/zdjęcia/rex keychain.png",
+    "gallery": ["/zdjęcia/rex keychain.png"],
+    "heightOptions": [
+      { "label": "mały 5 cm", "price": "10 zł" },
+      { "label": "duży 10 cm", "price": "20 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "breloki",
+    "isBestseller": true,
+    "sku": 1023
+  },
+  {
+    "id": "sowa",
+    "name": "Sowa",
+    "description": "Ta minimalistyczna sowa to idealny dodatek do nowoczesnego wnętrza. Jej prosta forma i uniwersalny kolor sprawiają, że będzie pasował do każdego stylu.",
+    "mainImage": "/zdjęcia/sowa.png",
+    "gallery": ["/zdjęcia/sowa.png"],
+    "heightOptions": [
+      { "label": "mały 10 cm", "price": "10 zł" },
+      { "label": "duży 17 cm", "price": "20 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1024
+  },
+  {
+    "id": "spiacy-aniolek",
+    "name": "Śpiący aniołek",
+    "description": "Ten uroczy, minimalistyczny aniołek to subtelna i elegancka ozdoba. Jego prosta forma i uniwersalny kolor sprawiają, że będzie pasował do każdego stylu wnętrza.",
+    "mainImage": "/zdjęcia/śpiący aniołek.png",
+    "gallery": ["/zdjęcia/śpiący aniołek.png"],
+    "heightOptions": [
+      { "label": "mały 6 cm", "price": "20 zł", "promoPrice": "15 zł" },
+      { "label": "średni 9 cm", "price": "35 zł" },
+      { "label": "duży 11 cm", "price": "50 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny Brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1025
+  },
+  {
+    "id": "swiecacy-aniol",
+    "name": "Świecąca figurka anioła",
+    "description": "Dodaj odrobinę niebiańskiego blasku do swojego domu dzięki tej pięknie wykonanej, świecącej figurce anioła. Idealna na prezent lub jako dekoracja na święta i inne okazje.",
+    "mainImage": "/zdjęcia/świecący anioł.png",
+    "gallery": ["/zdjęcia/świecący anioł.png"],
+    "heightOptions": [{ "label": "14 cm", "price": "40 zł" }],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "ozdoby",
+    "sku": 1026
+  },
+  {
+    "id": "wazon-w-paski",
+    "name": "Wazon Strata",
+    "description": "Wazon o klasycznym kształcie z nowoczesnym, żłobionym wzorem. Dostępny w różnych kolorach, idealny do każdego wnętrza. Elegancki wazon do minimalistycznych wnętrz, idealny do aranżacji z wykorzystaniem sztucznych kwiatów. Nie jest zalecany do długotrwałego kontaktu z wodą – choć teoretycznie może ją utrzymać, nie przeprowadzono stosownych testów.",
+    "mainImage": "/zdjęcia/wazon w paski.png",
+    "gallery": ["/zdjęcia/wazon w paski.png"],
+    "heightOptions": [
+      { "label": "mały 10 cm", "price": "20 zł" },
+      { "label": "duży 18 cm", "price": "40 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "wazony",
+    "sku": 1027
+  }
+]
