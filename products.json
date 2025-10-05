@@ -1,5 +1,396 @@
 [
   {
+    "id": "aniolek-azurowy",
+    "name": "Anioł Ażurowy",
+    "description": "Figurka anioła z korpusem w formie stożka i skrzydłami o geometrycznym kształcie. Wykonana z białego plastiku metodą druku 3D. Idealna jako ozdoba świąteczna lub dekoracja wnętrz.",
+    "mainImage": "/zdjęcia/aniołtea1.jpg",
+    "gallery": ["/zdjęcia/aniołtea1.jpg", "/zdjęcia/aniołtea2.jpg", "/zdjęcia/aniołtea3.jpg", "/zdjęcia/aniołtea4.jpg", "/zdjęcia/aniołtea5.jpg"],
+    "heightOptions": [
+      { "label": "10 cm", "price": "15 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1028
+  },
+  {
+    "id": "balwanek-klasyczny",
+    "name": "Bałwanek Klasyczny",
+    "description": "Figurka dekoracyjna przedstawiająca bałwanka z trzema segmentami, czarnym cylindrem i zielonym szalikiem. Minimalistyczny design bez twarzy nadaje mu nowoczesny charakter. Idealny na zimowe dekoracje.",
+    "mainImage": "/zdjęcia/bałwan1.jpg",
+    "gallery": ["/zdjęcia/bałwan1.jpg", "/zdjęcia/bałwan2.jpg", "/zdjęcia/bałwan3.jpg", "/zdjęcia/bałwan4.jpg"],
+    "heightOptions": [
+      { "label": "Duży 14 cm", "price": "20 zł" },
+      { "label": "Mały 10 cm", "price": "15 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1029
+  },
+  {
+    "id": "lampka-stozkowa-ażurowa",
+    "name": "Lampka Stożkowa Ażurowa",
+    "description": "Dekoracyjna lampka w kształcie stożka z precyzyjnym wzorem wycięć. Emituje ciepłe światło, tworząc nastrojowe refleksy na ścianie. Idealna do salonu, sypialni lub jako ozdoba świąteczna.",
+    "mainImage": "/zdjęcia/bigv1choinkatea1.jpg",
+    "gallery": ["/zdjęcia/bigv1choinkatea1.jpg", "/zdjęcia/bigv1choinkatea2.jpg", "/zdjęcia/bigv1choinkatea3.jpg", "/zdjęcia/bigv1choinkatea4.jpg", "/zdjęcia/bigv1choinkatea5.jpg", "/zdjęcia/bigv1choinkatea6.jpg", "/zdjęcia/bigv1choinkatea7.jpg"],
+    "heightOptions": [
+      { "label": "18 cm", "price": "20 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1030
+  },
+  {
+    "id": "lampka-choinka-z-wzorem",
+    "name": "Lampka Choinka z Wzorem",
+    "description": "Świąteczna lampka z ażurowym wzorem, rozświetlana od środka. Kształt choinki i ciepłe światło sprawiają, że doskonale komponuje się z zimowym wystrojem wnętrz.",
+    "mainImage": "/zdjęcia/choinkatea1.jpg",
+    "gallery": ["/zdjęcia/choinkatea1.jpg", "/zdjęcia/choinkatea2.jpg", "/zdjęcia/choinkatea3.jpg", "/zdjęcia/choinkatea4.jpg", "/zdjęcia/choinkatea5.jpg"],
+    "heightOptions": [
+      { "label": "10 cm", "price": "15 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1031
+  },
+  {
+    "id": "choinka-ryflowana",
+    "name": "Choinka Ryflowana",
+    "description": "Dekoracyjna choinka z wyraźnie zaznaczonymi poziomymi rantami. Geometryczna forma i precyzyjne wykonanie czynią ją idealną ozdobą na święta.",
+    "mainImage": "/zdjęcia/choinkipaski1.jpg",
+    "gallery": ["/zdjęcia/choinkipaski1.jpg", "/zdjęcia/choinkipaski2.jpg", "/zdjęcia/choinkipaski3.jpg", "/zdjęcia/choinkipaski4.jpg", "/zdjęcia/choinkipaski5.jpg", "/zdjęcia/choinkipaski6.jpg", "/zdjęcia/choinkipaski7.jpg", "/zdjęcia/choinkipaski8.jpg"],
+    "heightOptions": [
+      { "label": "Mały 6 cm", "price": "6 zł" },
+      { "label": "Średni 8 cm", "price": "13 zł" },
+      { "label": "Duży 11 cm", "price": "17 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1032
+  },
+  {
+    "id": "duszek-dekoracyjny-klasyczny",
+    "name": "Duszek Dekoracyjny Klasyczny",
+    "description": "Figurka duszka z podniesionymi ramionami i dużymi oczami. Wykonana z białego tworzywa, idealna jako ozdoba na Halloween lub do tematycznych aranżacji.",
+    "mainImage": "/zdjęcia/duch1.jpg",
+    "gallery": ["/zdjęcia/duch1.jpg", "/zdjęcia/duch2.jpg", "/zdjęcia/duch3.jpg", "/zdjęcia/duch4.jpg", "/zdjęcia/duch5.jpg", "/zdjęcia/duch6.jpg"],
+    "heightOptions": [
+      { "label": "Mały 9 cm", "price": "10 zł" },
+      { "label": "Średni 12 cm", "price": "15 zł" },
+      { "label": "Duży 18 cm", "price": "25 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Halloween",
+    "isNew": true,
+    "sku": 1033 
+  },
+  {
+    "id": "duszek-kotek",
+    "name": "Duszek Kotek",
+    "description": "Figurka dekoracyjna łącząca klasyczny kształt duszka z subtelnymi cechami kota. Duże oczy, otwarta buzia i uniesione ramiona nadają jej zabawny, halloweenowy charakter. Idealna jako ozdoba tematyczna lub element kreatywnego wystroju.",
+    "mainImage": "/zdjęcia/kottea1.jpg",
+    "gallery": ["/zdjęcia/kottea1.jpg", "/zdjęcia/kottea2.jpg", "/zdjęcia/kottea3.jpg"],
+    "heightOptions": [
+      { "label": "Mały 7 cm", "price": "10 zł" },
+      { "label": "Średni 12 cm", "price": "16 zł" },
+      { "label": "Duży 18 cm", "price": "27 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Halloween",
+    "isNew": true,
+    "sku": 1034
+  },
+  {
+    "id": "dynia-dekoracyjna",
+    "name": "Dynia Dekoracyjna",
+    "description": "Mała figurka dyni o ryflowanej powierzchni i klasycznym kształcie. Wykonana z żółtego tworzywa, idealna do jesiennych i halloweenowych aranżacji.",
+    "mainImage": "/zdjęcia/minisdynie1.jpg",
+    "gallery": ["/zdjęcia/minisdynie1.jpg", "/zdjęcia/minisdynie2.jpg", "/zdjęcia/minisdynie3.jpg", "/zdjęcia/minisdynie4.jpg"],
+    "heightOptions": [
+      { "label": "1 Sztuka 1.5cm", "price": "2" },
+      { "label": "5 Sztuk 1.5cm", "price": "8" },
+      { "label": "10 Sztuk 1.5cm", "price": "15" },
+      { "label": "15 Sztuka 1.5cm", "price": "20" },
+      { "label": "20 Sztuk 1.5cm", "price": "25" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Halloween",
+    "isNew": true,
+    "sku": 1035
+  },
+  {
+    "id": "duszek-mini",
+    "name": "Duszek Mini",
+    "description": "Figurka duszka z rozłożonymi ramionami i klasycznym kształtem. Wykonana z białego tworzywa, świetna do tematycznych aranżacji lub jako pionek dekoracyjny.",
+    "mainImage": "/zdjęcia/minisduszki1.jpg",
+    "gallery": ["/zdjęcia/minisduszki1.jpg", "/zdjęcia/minisduszki2.jpg", "/zdjęcia/minisduszki3.jpg", "/zdjęcia/minisduszki4.jpg", "/zdjęcia/minisduszki5.jpg", "/zdjęcia/minisduszki6.jpg", "/zdjęcia/minisduszki7.jpg", "/zdjęcia/minisduszki8.jpg"],
+    "heightOptions": [
+      { "label": "Małe 1.5cm 1 Sztuka", "price": "2 zł" },
+      { "label": "Małe 1.5cm 5 Sztuk", "price": "8 zł" },
+      { "label": "Małe 1.5cm 10 Sztuk", "price": "15 zł" },
+      { "label": "Małe 1.5cm 15 Sztuk", "price": "22 zł" },
+      { "label": "Małe 1.5cm 20 Sztuk", "price": "28 zł" },
+      { "label": "Duże 2cm 1 Sztuka", "price": "3 zł" },
+      { "label": "Duże 2cm 5 Sztuk", "price": "12 zł" },
+      { "label": "Duże 2cm 10 Sztuk", "price": "25 zł" },
+      { "label": "Duże 2cm 15 Sztuk", "price": "37 zł" },
+      { "label": "Duże 2cm 20 Sztuk", "price": "48 zł" },
+      { "label": "Zestaw Mix 10 Sztuk (5 Małych + 5 Dużych)", "price": "18 zł" },
+      { "label": "Zestaw Mix 20 Sztuk (10 Małych + 10 Dużych)", "price": "40 zł" },
+      { "label": "Mega Zestaw 30 Sztuk (15 Małych + 15 Dużych)", "price": "57 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Halloween",
+    "isNew": true,
+    "sku": 1036
+  },
+  {
+    "id": "mikolaj-stozkowy-klasyczny",
+    "name": "Mikołaj Stożkowy Klasyczny",
+    "description": "Figurka Mikołaja o stożkowym korpusie z pionowymi żłobieniami, białą brodą i czerwonym kapeluszem. Minimalistyczny design idealny do nowoczesnych dekoracji świątecznych.",
+    "mainImage": "/zdjęcia/mikołaj1.jpg",
+    "gallery": ["/zdjęcia/mikołaj1.jpg", "/zdjęcia/mikołaj2.jpg", "/zdjęcia/mikołaj3.jpg", "/zdjęcia/mikołaj4.jpg"],
+    "heightOptions": [
+      { "label": "Mały 10 cm", "price": "17 zł" },
+      { "label": "Duży 18 cm", "price": "25 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1037
+  },
+  {
+    "id": "balwanek-mini",
+    "name": "Bałwanek Mini",
+    "description": "Dziewięć bałwanków w trzech rozmiarach, ułożonych w formie piramidy. Minimalistyczny design i zimowy motyw sprawiają, że świetnie nadają się do dekoracji lub kolekcji.",
+    "mainImage": "/zdjęcia/minisbałwanki1.jpg",
+    "gallery": ["/zdjęcia/minisbałwanki1.jpg", "/zdjęcia/minisbałwanki2.jpg", "/zdjęcia/minisbałwanki3.jpg", "/zdjęcia/minisbałwanki4.jpg", "/zdjęcia/minisbałwanki5.jpg", "/zdjęcia/minisbałwanki6.jpg", "/zdjęcia/minisbałwanki7.jpg", "/zdjęcia/minisbałwanki8.jpg"],
+    "heightOptions": [
+      { "label": "Małe 2.5cm 1 Sztuka", "price": "3 zł" },
+      { "label": "Małe 2.5cm 5 Sztuk", "price": "13 zł" },
+      { "label": "Małe 2.5cm 10 Sztuk", "price": "25 zł" },
+      { "label": "Małe 2.5cm 15 Sztuk", "price": "36 zł" },
+      { "label": "Małe 2.5cm 20 Sztuk", "price": "45 zł" },
+      { "label": "Duże 3.5cm 1 Sztuka", "price": "4 zł" },
+      { "label": "Duże 3.5cm 5 Sztuk", "price": "18 zł" },
+      { "label": "Duże 3.5cm 10 Sztuk", "price": "34 zł" },
+      { "label": "Duże 3.5cm 15 Sztuk", "price": "48 zł" },
+      { "label": "Duże 3.5cm 20 Sztuk", "price": "60 zł" },
+      { "label": "Zestaw Mix 10 Sztuk (5 Małych + 5 Dużych)", "price": "30 zł" },
+      { "label": "Zestaw Mix 20 Sztuk (10 Małych + 10 Dużych)", "price": "58 zł" },
+      { "label": "Mega Zestaw 30 Sztuk (15 Małych + 15 Dużych)", "price": "84 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1038
+  },
+  {
+    "id": "dekoracja-spiralna",
+    "name": "Dekoracja Spiralna",
+    "description": "Figurka o stożkowym kształcie z dynamicznym spiralnym wzorem w kolorach niebieskim i zielonym. Idealna jako ozdoba nowoczesnego wnętrza lub pokaz możliwości druku 3D.",
+    "mainImage": "/zdjęcia/piramidspiral1.jpg",
+    "gallery": ["/zdjęcia/piramidspiral1.jpg", "/zdjęcia/piramidspiral2.jpg", "/zdjęcia/piramidspiral3.jpg", "/zdjęcia/piramidspiral4.jpg"],
+    "heightOptions": [
+      { "label": "Mały 8 cm", "price": "10 zł" },
+      { "label": "Duży 15 cm", "price": "25 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "isNew": true,
+    "sku": 1039
+  },
+  {
+    "id": "osmiornica-z-glowa-shreka",
+    "name": "Ośmiornica z Głową Shreka",
+    "description": "Figurka 3D łącząca kultową głowę Shreka z ciałem ośmiornicy z ruchomymi mackami. Humorystyczna hybryda, która przyciąga uwagę i pokazuje kreatywne możliwości druku 3D. Idealna jako gadżet kolekcjonerski lub nietypowa ozdoba.",
+    "mainImage": "/zdjęcia/shrek1.jpg",
+    "gallery": ["/zdjęcia/shrek1.jpg", "/zdjęcia/shrek2.jpg", "/zdjęcia/shrek3.jpg", "/zdjęcia/shrek4.jpg"],
+    "heightOptions": [
+      { "label": "3 cm", "price": "10 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "inne",
+    "isNew": true,
+    "sku": 1040
+  },
+  {
+    "id": "sniezynka-3d-dekoracyjna",
+    "name": "Śnieżynka 3D Dekoracyjna",
+    "description": "Przestrzenna śnieżynka złożona z płaskich, ażurowych elementów tworzących geometryczną strukturę. Wykonana techniką druku 3D, z zawieszką do powieszenia. Idealna jako ozdoba choinkowa, stroik lub element zimowej aranżacji.",
+    "mainImage": "/zdjęcia/śnieżka3d1.jpg",
+    "gallery": ["/zdjęcia/śnieżka3d1.jpg", "/zdjęcia/śnieżka3d2.jpg"],
+    "heightOptions": [
+      { "label": "1 Sztuka 10cm", "price": "7 zł" },
+      { "label": "5 Sztuk 10cm", "price": "30 zł" },
+      { "label": "10 Sztuk 10cm", "price": "55 zł" },
+      { "label": "15 Sztuk 10cm", "price": "80 zł" },
+      { "label": "20 Sztuk 10cm", "price": "100 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1041
+  },
+  {
+    "id": "sniezynka-3d-dekoracyjna",
+    "name": "Śnieżynka 3D Dekoracyjna",
+    "description": "Przestrzenna śnieżynka złożona z płaskich, ażurowych elementów. Zawieszka umożliwia montaż na choince lub w oknie. Idealna do zimowych aranżacji.",
+    "mainImage": "/zdjęcia/śnieżka1.jpg",
+    "gallery": ["/zdjęcia/śnieżka1.jpg", "/zdjęcia/śnieżka2.jpg", "/zdjęcia/śnieżka3.jpg", "/zdjęcia/śnieżka4.jpg", "/zdjęcia/śnieżka5.jpg", "/zdjęcia/śnieżka6.jpg", "/zdjęcia/śnieżka7.jpg", "/zdjęcia/śnieżka8.jpg", "/zdjęcia/śnieżka9.jpg", "/zdjęcia/śnieżka10.jpg"],
+    "heightOptions": [
+      { "label": "1 Sztuka 6cm Wzór do wybrania", "price": "5 zł" },
+      { "label": "5 Sztuk 6cm Wzór do wybrania", "price": "22 zł" },
+      { "label": "10 Sztuk 6cm Wzór do wybrania", "price": "40 zł" },
+      { "label": "15 Sztuk 6cm Wzór do wybrania", "price": "55 zł" },
+      { "label": "20 Sztuk 6cm Wzór do wybrania", "price": "68 zł" },
+      { "label": "25 Sztuk 6cm Wzór do wybrania", "price": "80 zł" }
+    ],
+    "colorOptions": [
+      "Biały",
+      "Zielony",
+      "Żółty",
+      "Czarny",
+      "Szary",
+      "Jasny brąz",
+      "Niebieski",
+      "Czerwony"
+    ],
+    "category": "Boże Narodzenie",
+    "isNew": true,
+    "sku": 1042
+  },
+  {
     "id": "aniolek",
     "name": "Aniołek",
     "description": "Ten uroczy, minimalistyczny aniołek to subtelna i elegancka ozdoba. Jego prosta forma i uniwersalny biały kolor sprawiają, że będzie pasował do każdego stylu wnętrza.",
@@ -408,30 +799,6 @@
     ],
     "category": "ozdoby",
     "sku": 1020
-  },
-  {
-    "id": "owca",
-    "name": "Urocza owieczka",
-    "description": "Urocza figurka owieczki wykonana w technologii druku 3D. Idealna jako dekoracja lub prezent dla miłośników zwierząt.",
-    "mainImage": "/zdjęcia/owca.png",
-    "gallery": ["/zdjęcia/owca.png"],
-    "heightOptions": [
-      { "label": "Mały 6 cm", "price": "10 zł" },
-      { "label": "Średni 12 cm", "price": "20 zł" },
-      { "label": "Duży 15 cm", "price": "30 zł" }
-    ],
-    "colorOptions": [
-      "Biały",
-      "Zielony",
-      "Żółty",
-      "Czarny",
-      "Szary",
-      "Jasny brąz",
-      "Niebieski",
-      "Czerwony"
-    ],
-    "category": "ozdoby",
-    "sku": 1021
   },
   {
     "id": "plant-support",
