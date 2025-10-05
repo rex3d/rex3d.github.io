@@ -174,11 +174,11 @@
     "mainImage": "/zdjęcia/minisdynie1.jpg",
     "gallery": ["/zdjęcia/minisdynie1.jpg", "/zdjęcia/minisdynie2.jpg", "/zdjęcia/minisdynie3.jpg", "/zdjęcia/minisdynie4.jpg"],
     "heightOptions": [
-      { "label": "1 Sztuka 1.5cm", "price": "2" },
-      { "label": "5 Sztuk 1.5cm", "price": "8" },
-      { "label": "10 Sztuk 1.5cm", "price": "15" },
-      { "label": "15 Sztuka 1.5cm", "price": "20" },
-      { "label": "20 Sztuk 1.5cm", "price": "25" }
+      { "label": "1 Sztuka 1.5 cm", "price": "2 zł" },
+      { "label": "5 Sztuk 1.5 cm", "price": "8 zł" },
+      { "label": "10 Sztuk 1.5 cm", "price": "15 zł" },
+      { "label": "15 Sztuka 1.5 cm", "price": "20 zł" },
+      { "label": "20 Sztuk 1.5 cm", "price": "25 zł" }
     ],
     "colorOptions": [
       "Biały",
@@ -201,16 +201,16 @@
     "mainImage": "/zdjęcia/minisduszki1.jpg",
     "gallery": ["/zdjęcia/minisduszki1.jpg", "/zdjęcia/minisduszki2.jpg", "/zdjęcia/minisduszki3.jpg", "/zdjęcia/minisduszki4.jpg", "/zdjęcia/minisduszki5.jpg", "/zdjęcia/minisduszki6.jpg", "/zdjęcia/minisduszki7.jpg", "/zdjęcia/minisduszki8.jpg"],
     "heightOptions": [
-      { "label": "Małe 1.5cm 1 Sztuka", "price": "2 zł" },
-      { "label": "Małe 1.5cm 5 Sztuk", "price": "8 zł" },
-      { "label": "Małe 1.5cm 10 Sztuk", "price": "15 zł" },
-      { "label": "Małe 1.5cm 15 Sztuk", "price": "22 zł" },
-      { "label": "Małe 1.5cm 20 Sztuk", "price": "28 zł" },
-      { "label": "Duże 2cm 1 Sztuka", "price": "3 zł" },
-      { "label": "Duże 2cm 5 Sztuk", "price": "12 zł" },
-      { "label": "Duże 2cm 10 Sztuk", "price": "25 zł" },
-      { "label": "Duże 2cm 15 Sztuk", "price": "37 zł" },
-      { "label": "Duże 2cm 20 Sztuk", "price": "48 zł" },
+      { "label": "Małe 1.5 cm 1 Sztuka", "price": "2 zł" },
+      { "label": "Małe 1.5 cm 5 Sztuk", "price": "8 zł" },
+      { "label": "Małe 1.5 cm 10 Sztuk", "price": "15 zł" },
+      { "label": "Małe 1.5 cm 15 Sztuk", "price": "22 zł" },
+      { "label": "Małe 1.5 cm 20 Sztuk", "price": "28 zł" },
+      { "label": "Duże 2 cm 1 Sztuka", "price": "3 zł" },
+      { "label": "Duże 2 cm 5 Sztuk", "price": "12 zł" },
+      { "label": "Duże 2 cm 10 Sztuk", "price": "25 zł" },
+      { "label": "Duże 2 cm 15 Sztuk", "price": "37 zł" },
+      { "label": "Duże 2 cm 20 Sztuk", "price": "48 zł" },
       { "label": "Zestaw Mix 10 Sztuk (5 Małych + 5 Dużych)", "price": "18 zł" },
       { "label": "Zestaw Mix 20 Sztuk (10 Małych + 10 Dużych)", "price": "40 zł" },
       { "label": "Mega Zestaw 30 Sztuk (15 Małych + 15 Dużych)", "price": "57 zł" }
@@ -260,16 +260,16 @@
     "mainImage": "/zdjęcia/minisbałwanki1.jpg",
     "gallery": ["/zdjęcia/minisbałwanki1.jpg", "/zdjęcia/minisbałwanki2.jpg", "/zdjęcia/minisbałwanki3.jpg", "/zdjęcia/minisbałwanki4.jpg", "/zdjęcia/minisbałwanki5.jpg", "/zdjęcia/minisbałwanki6.jpg", "/zdjęcia/minisbałwanki7.jpg", "/zdjęcia/minisbałwanki8.jpg"],
     "heightOptions": [
-      { "label": "Małe 2.5cm 1 Sztuka", "price": "3 zł" },
-      { "label": "Małe 2.5cm 5 Sztuk", "price": "13 zł" },
-      { "label": "Małe 2.5cm 10 Sztuk", "price": "25 zł" },
-      { "label": "Małe 2.5cm 15 Sztuk", "price": "36 zł" },
-      { "label": "Małe 2.5cm 20 Sztuk", "price": "45 zł" },
-      { "label": "Duże 3.5cm 1 Sztuka", "price": "4 zł" },
-      { "label": "Duże 3.5cm 5 Sztuk", "price": "18 zł" },
-      { "label": "Duże 3.5cm 10 Sztuk", "price": "34 zł" },
-      { "label": "Duże 3.5cm 15 Sztuk", "price": "48 zł" },
-      { "label": "Duże 3.5cm 20 Sztuk", "price": "60 zł" },
+      { "label": "Małe 2.5 cm 1 Sztuka", "price": "3 zł" },
+      { "label": "Małe 2.5 cm 5 Sztuk", "price": "13 zł" },
+      { "label": "Małe 2.5 cm 10 Sztuk", "price": "25 zł" },
+      { "label": "Małe 2.5 cm 15 Sztuk", "price": "36 zł" },
+      { "label": "Małe 2.5 cm 20 Sztuk", "price": "45 zł" },
+      { "label": "Duże 3.5 cm 1 Sztuka", "price": "4 zł" },
+      { "label": "Duże 3.5 cm 5 Sztuk", "price": "18 zł" },
+      { "label": "Duże 3.5 cm 10 Sztuk", "price": "34 zł" },
+      { "label": "Duże 3.5 cm 15 Sztuk", "price": "48 zł" },
+      { "label": "Duże 3.5 cm 20 Sztuk", "price": "60 zł" },
       { "label": "Zestaw Mix 10 Sztuk (5 Małych + 5 Dużych)", "price": "30 zł" },
       { "label": "Zestaw Mix 20 Sztuk (10 Małych + 10 Dużych)", "price": "58 zł" },
       { "label": "Mega Zestaw 30 Sztuk (15 Małych + 15 Dużych)", "price": "84 zł" }
@@ -342,11 +342,11 @@
     "mainImage": "/zdjęcia/śnieżka3d1.jpg",
     "gallery": ["/zdjęcia/śnieżka3d1.jpg", "/zdjęcia/śnieżka3d2.jpg"],
     "heightOptions": [
-      { "label": "1 Sztuka 10cm", "price": "7 zł" },
-      { "label": "5 Sztuk 10cm", "price": "30 zł" },
-      { "label": "10 Sztuk 10cm", "price": "55 zł" },
-      { "label": "15 Sztuk 10cm", "price": "80 zł" },
-      { "label": "20 Sztuk 10cm", "price": "100 zł" }
+      { "label": "1 Sztuka 10 cm", "price": "7 zł" },
+      { "label": "5 Sztuk 10 cm", "price": "30 zł" },
+      { "label": "10 Sztuk 10 cm", "price": "55 zł" },
+      { "label": "15 Sztuk 10 cm", "price": "80 zł" },
+      { "label": "20 Sztuk 10 cm", "price": "100 zł" }
     ],
     "colorOptions": [
       "Biały",
@@ -369,12 +369,12 @@
     "mainImage": "/zdjęcia/śnieżka1.jpg",
     "gallery": ["/zdjęcia/śnieżka1.jpg", "/zdjęcia/śnieżka2.jpg", "/zdjęcia/śnieżka3.jpg", "/zdjęcia/śnieżka4.jpg", "/zdjęcia/śnieżka5.jpg", "/zdjęcia/śnieżka6.jpg", "/zdjęcia/śnieżka7.jpg", "/zdjęcia/śnieżka8.jpg", "/zdjęcia/śnieżka9.jpg", "/zdjęcia/śnieżka10.jpg"],
     "heightOptions": [
-      { "label": "1 Sztuka 6cm Wzór do wybrania", "price": "5 zł" },
-      { "label": "5 Sztuk 6cm Wzór do wybrania", "price": "22 zł" },
-      { "label": "10 Sztuk 6cm Wzór do wybrania", "price": "40 zł" },
-      { "label": "15 Sztuk 6cm Wzór do wybrania", "price": "55 zł" },
-      { "label": "20 Sztuk 6cm Wzór do wybrania", "price": "68 zł" },
-      { "label": "25 Sztuk 6cm Wzór do wybrania", "price": "80 zł" }
+      { "label": "1 Sztuka 6 cm Wzór do wybrania", "price": "5 zł" },
+      { "label": "5 Sztuk 6 cm Wzór do wybrania", "price": "22 zł" },
+      { "label": "10 Sztuk 6 cm Wzór do wybrania", "price": "40 zł" },
+      { "label": "15 Sztuk 6 cm Wzór do wybrania", "price": "55 zł" },
+      { "label": "20 Sztuk 6 cm Wzór do wybrania", "price": "68 zł" },
+      { "label": "25 Sztuk 6 cm Wzór do wybrania", "price": "80 zł" }
     ],
     "colorOptions": [
       "Biały",
